@@ -1,0 +1,57 @@
+.transportation {
+    background: linear-gradient(90deg, #393F47 35%, #2F343A 35% 61%, #393F47 61%);
+    padding: 160px 200px 129px;
+
+    .row {
+        display: flex;
+    }
+
+  
+
+    &__subtitle {
+        font-size: 18px;
+        color: white;
+        font-family: sans-serif;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    &__btn {
+        background: $gold;
+        width: 220px;
+        height: 55px;
+        color: white;
+        text-transform: uppercase;
+        font-family: sans-serif;
+    }
+
+    &__next {
+        color: $gold;
+        text-transform: uppercase;
+
+        &::before {
+            content: '';
+            width: 65px;
+            background: url(../images/transportation/Arrow.png);
+            top: 0;
+            left: cale(380-34px);
+            position: absolute;
+            transform: rotate(180deg);
+        }
+    }
+
+    &__back {
+        color: $gold;
+        text-transform: uppercase;
+        left: cale(380-34px);
+        position: relative;
+    }
+
+    .wrapper {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

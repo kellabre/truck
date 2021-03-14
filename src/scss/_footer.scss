@@ -1,0 +1,28 @@
+.footer{
+    width:100%;
+    background:$gold;
+    padding:60px 0;
+
+    .row{
+        display: flex;
+        width:100%;
+        justify-content: space-between;
+        .col{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+    
+         &_1{
+            align-self: flex-end;
+         }
+        }
+    }
+
+&__link {
+color:#fff;
+text-decoration: none;
+&__black{
+    color:#2F343A;
+}
+}
+}
